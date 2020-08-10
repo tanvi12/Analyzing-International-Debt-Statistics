@@ -7,3 +7,8 @@ specific information from that CSV file.
 Data Cleaning on “IDSData” table to remove unnecessary columns with 0 values.
 Combined datasets for better insights.
 We will perform this project in python.
+
+![Screenshot](image_1.png)
+![Screenshot](image_2.png)
+![Screenshot](image_3.png)
+![Screenshot](image_4.png)
