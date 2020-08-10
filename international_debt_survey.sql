@@ -6,3 +6,4 @@ SELECT country_name,  SUM(debt) AS total_debt FROM debt_data GROUP BY country_na
 SELECT indicator_code AS debt_indicator, indicator_name, AVG(debt) AS average_debt FROM debt_data GROUP BY debt_indicator, indicator_name ORDER BY average_debt DESC LIMIT 10;
 SELECT country_name, indicator_name FROM debt_data WHERE debt = (SELECT MAX(debt) FROM debt_data WHERE indicator_code='DT.AMT.DLXF.CD');
 SELECT country_name, indicator_code, MAX(debt) AS maximum_debt FROM debt_data GROUP BY country_name, indicator_code ORDER BY maximum_debt DESC LIMIT 10;
+SELECT * FROM idscountry LIMIT 100;
